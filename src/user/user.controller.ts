@@ -11,9 +11,9 @@ import {
 } from '@nestjs/common';
 import { UserService } from './user.service';
 import { UpdateUserDto } from './dto/update-user.dto';
-import { JwtAuthGuard } from 'src/auth/guards/jwt-auth.guard';
-import { Roles } from 'src/auth/roles/roles.decorator';
-import { RoleGuard } from 'src/auth/guards/role.guard';
+import { JwtAuthGuard } from 'auth/guards/jwt-auth.guard';
+import { Roles } from 'auth/roles/roles.decorator';
+import { RoleGuard } from 'auth/guards/role.guard';
 
 @Controller({ path: 'user', version: '1' })
 export class UserController {

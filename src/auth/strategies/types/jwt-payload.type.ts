@@ -1,4 +1,4 @@
-import { UserEntity as User } from 'src/user/user.entity';
+import { UserEntity as User } from 'user/user.entity';
 
 export type JwtPayloadType = Pick<User, 'id' | 'role'> & {
   userId: User['id'];

@@ -4,9 +4,9 @@ import { JwtService } from '@nestjs/jwt';
 import ms from 'ms';
 import * as bcrypt from 'bcrypt';
 
-import { CreateUserDto } from 'src/user/dto/create-user.dto';
-import { UserEntity } from 'src/user/user.entity';
-import { UserService } from 'src/user/user.service';
+import { CreateUserDto } from 'user/dto/create-user.dto';
+import { UserEntity } from 'user/user.entity';
+import { UserService } from 'user/user.service';
 import { AuthLoginDto } from './dto/auth-login.dto';
 import { LoginResponseType } from './types/login-response.type';
 
