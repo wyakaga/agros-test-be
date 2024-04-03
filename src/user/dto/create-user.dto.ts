@@ -1,6 +1,6 @@
 import { IsEmail, IsNotEmpty, Matches, MinLength } from 'class-validator';
 import { UserRole } from '../user.entity';
-import { ContainsNumber } from 'src/utils/validators/contain-number.validatior';
+import { ContainsNumber } from 'src/utils/validators/contain-number.validator';
 import { ContainsSymbol } from 'src/utils/validators/contain-symbol.validator';
 import { ContainsUppercase } from 'src/utils/validators/contain-uppercase.validator';
 

@@ -8,10 +8,12 @@ import {
 
 @ValidatorConstraint({ name: 'containsNumber', async: false })
 export class ContainsNumberConstraint implements ValidatorConstraintInterface {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   validate(text: string, args: ValidationArguments) {
     return /\d/.test(text);
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   defaultMessage(args: ValidationArguments) {
     return 'The $property must contain at least one number';
   }
